@@ -3,14 +3,24 @@ body {
 	margin: 0px;
 }
 
-h1 {
+/* alle font aanpassingen hierin */
+
+h1, h2, h3, h4 ,h5 {
   font-family: "Raleway", "Open-sans", arial;
 }
+
+p {
+  font-family: "Raleway", "Open-sans", arial;
+}
+
+/* Web breedte standaard */ 
 
 .width {
 	max-width: 1200px;
 	margin: auto;
 }
+
+/* navigatie css */
 
 .navbar {
   overflow: hidden;
@@ -142,6 +152,8 @@ h1 {
 	margin: 5px;
 }
 
+/* lander header */
+
 .header {
   background-image: url("images/lander_header.jpeg");
   background-size: cover;
@@ -149,6 +161,8 @@ h1 {
   background-repeat: no-repeat;
   padding: 15px 25px;
 }
+
+/* Tekst in de header (lander) */
 
 .h1-head {
   color: #ffffff;
@@ -159,6 +173,8 @@ h1 {
   margin-top: 180px;
   padding: 15px 20px;
 }
+
+/* Buttons */
 
 .button-1 {
   color: #ffffff;
@@ -176,3 +192,5 @@ h1 {
   color: #EC7A21;
   background-color: #ffffff;
 }
+
+/* */

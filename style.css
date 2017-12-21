@@ -1,0 +1,178 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+  font-family: "Raleway", "Open-sans", arial;
+}
+
+.width {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #EC7A21;
+  font-family: "Raleway", "Open-sans", arial;
+  height: 80px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.navbar a:first-child {
+	margin-top: 0px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin-top: 15px;
+  font-family: "Raleway", "Open-sans", arial;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: #EC7A21;
+  border-radius: 25px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo {
+	float: left;
+}
+
+.navbar a:hover:first-child {
+	background-color: #EC7A21;
+}
+
+.navbar a:first-child {
+	padding-left: 0px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffffff !important;
+}
+
+.dropdown-content a:first-child {
+	padding-left: 12px;
+}
+
+.inlog {
+	float: right;
+	color: #ffffff;
+	padding-top: 5px;
+}
+
+.inlog:first-child {
+	padding-top: 25px;
+}
+
+.dropdown-2 {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown-2 .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin-top: 15px;
+  font-family: "Raleway", "Open-sans", arial;
+}
+
+.navbar a:hover, .dropdown-2:hover .dropbtn {
+  background-color: #ffffff;
+  color: #EC7A21;
+  border-radius: 25px;
+}
+
+.dropdown-2:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+	border-radius: 0px;
+}
+
+.logtkst {
+	padding: 5px;
+	margin: 5px;
+}
+
+.header {
+  background-image: url("images/lander_header.jpeg");
+  background-size: cover;
+  height: 84.3vh;
+  background-repeat: no-repeat;
+  padding: 15px 25px;
+}
+
+.h1-head {
+  color: #ffffff;
+  background-color: #EC7A21;
+  text-align: center;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 180px;
+  padding: 15px 20px;
+}
+
+.button-1 {
+  color: #ffffff;
+  background-color: #EC7A21;
+  display: table;
+  margin: 0 auto; 
+  margin-top: 30px;
+  padding: 15px 20px;
+  font-size: 14px; 
+  text-decoration: none;
+  font-family: "Raleway", "Open-sans", arial;
+}
+
+.button-1:hover {
+  color: #EC7A21;
+  background-color: #ffffff;
+}
